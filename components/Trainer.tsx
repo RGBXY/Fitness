@@ -4,7 +4,7 @@ import TrainerCard from "./ui/TrainerCard";
 
 const Trainer = () => {
   return (
-    <div className="lg:px-20 py-10 px-5">
+    <div id="trainer" className="lg:px-20 py-16 pb-10 px-5">
       <div className=" flex justify-between flex-col lg:flex-row items-center mb-20">
         <div className="w-full lg:w-[400px] h-[150px] rounded-full overflow-hidden mb-5">
           <Image className="h-full w-full object-cover" loading="lazy" height={200} width={200} src={"/assets/trainer.jpeg"} alt="trainer" />
