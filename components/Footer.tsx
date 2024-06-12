@@ -9,7 +9,7 @@ const Footer = () => {
         <button className="py-3 px-8 bg-yellow-500 rounded-lg text-base">Contact</button>
       </div>
       <div className="bg-[#1AB9BFA1] px-14 py-8 gap-8 flex flex-col justify-center items-center">
-        <Image className="w-32 lg:w-36" height={200} width={200} src={"assets/logo.svg"} alt="logo" />
+        <Image className="w-32 lg:w-36" loading="lazy" height={200} width={200} src={"assets/logo.svg"} alt="logo" />
         <ul className="flex items-center flex-wrap gap-5 border-b-2 border-[#AAA6A640] w-full text-sm justify-center pb-8">
           <li>
             <a href="">Home</a>

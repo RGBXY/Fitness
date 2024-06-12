@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed z-50 top-0 left-0 flex justify-between items-center h-[4.5rem] bg-black w-full px-5 lg:px-20">
-      <Image className="w-32 lg:w-36" height={160} width={160} src={"/assets/logo.svg"} alt="logo" />
+      <Image className="w-32 lg:w-36" loading="lazy" height={160} width={160} src={"/assets/logo.svg"} alt="logo" />
       <ul
         className={`${
           isOpen ? "right-0" : " -right-1/2"
